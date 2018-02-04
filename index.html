@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Soon - Your server name" /> <!-- Title of your web page -->
+	<meta name="twitter:site" content="@twitter" /> <!-- Your twitter account if you have one, otherwise remove this line. -->
+	<meta name="twitter:description" content="This page is currently under construction." /> <!-- Page description -->
+	<meta name="twitter:image" content="https://www.spigotmc.org/data/resource_icons/46/46237.jpg?1503582594" /> <!-- Logo of the page -->
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Soon - Your server name" /> <!-- Title of your web page -->
+	<meta property="og:type" content="website" /> 
+	<meta property="og:site_name" content="Your server name" /> <!-- Name of your website -->
+	<meta property="og:url" content="http://mywebsite.com/"/> <!-- Link to your web page or website -->
+	<meta property="og:description" content="This page is currently under construction." /> <!-- Page description -->
+	<meta property="og:image" content="https://www.spigotmc.org/data/resource_icons/46/46237.jpg?1503582594" /> <!-- Logo of the page -->
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Soon - Simple webpage">
+    <meta name="author" content="R.C Company">
+
+	<title>Soon | Your server name</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+	<!-- CSS LINK -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- JS LINK -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header style="background-color: #000;" id="myCarousel" class="carousel slide fade-carousel">
+        <div class="overlay"></div>       
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <br/>
+            <a style="font-size: 12px;" href="https://www.spigotmc.org/resources/soon-a-simple-webpage.46237/">Webpage by R.C Company <i class="fa fa-heart" aria-hidden="true"></i></a>
+        </ol>
+        <div class="text-carousel">
+
+            <hgroup>
+            <img src="img/logo.png" alt="Server logo"> 
+                <h3>
+                    <p>We're currently working at a new version of our website !<br/>
+                    Do you want to follow updates? Follow us on social media !<br/></p>
+
+                    <!-- Social link HERE-->
+                    <a href="https://discord.gg/GShaJZM" class="btn btn-lg discord">Discord <img src="https://discordapp.com/assets/28174a34e77bb5e5310ced9f95cb480b.png"></a>
+                    <a href="#" class="btn btn-lg facebook">Facebook </a>
+                    <a href="#" class="btn btn-lg twitter">Twitter </a>
+                    <a href="#" class="btn btn-lg youtube">Youtube </a>
+                    <!-- END SOCAIL LINK ZONE -->
+
+                </h3>
+                
+            </hgroup>
+        </div>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner" style="opacity: 0.5;">
+            <div class="item slides active">
+                <div class="slide-1" style="background-image: url('./img/slide1.jpg');"></div>
+            </div>
+            <div class="item slides">
+                <div class="slide-2" style="background-image: url('./img/slide2.jpg');"></div>
+            </div>
+            <div class="item slides">
+                <div class="slide-3" style="background-image: url('./img/slide3.jpg');"></div>    
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+</body>
+<script>
+    $('.carousel').carousel({
+        interval: 3500,
+        pause: "active"
+    });
+
+</script>
+</html>
